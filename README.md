@@ -60,4 +60,5 @@ sholes(options); //fires sholes
 
 ## License
 If you want to make improvements or extend this plugin, go for it! Fork it, pull it, whatever.
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
