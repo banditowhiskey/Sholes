@@ -1,8 +1,13 @@
 # Sholes.js
 
-A simple dependency free plugin to simulate typing. It's not the best, nor the worst, but it _is_ reliable and very lightweight (2KB). Sholes.js was born out of a challenge to not use any libraries while creating a prototype web app in an extremely limited amount of time. It will likely **not** be maintained or improved.
+A simple dependency free plugin to simulate typing. It's not the best, nor the worst, but it _is_ reliable and very lightweight (2KB).
 
-If you're interested in more robust, full featured, and slick solutions to simulate typing, you should check out
+Christopher Latham Sholes (along with some other cool dudes) invented the **Sholes and Glidden typewriter**. It was the first commercially successful typewriter. Despite this, Sholes was disappointed with it and refused to use it or recommend it. That's fitting for how we feel about this plugin. 
+
+Sholes.js was born out of a challenge to not use any libraries while creating a prototype web app in an extremely limited amount of time. It will likely **not** be maintained or improved.
+
+If you're interested in more robust, full featured, and slick solutions to simulate typing, you should check out:
+
 [Typed.js](https://github.com/mattboldt/typed.js/) | [TypeIt](https://typeitjs.com/) | [TypewriterJS](https://safi.me.uk/typewriterjs/)
 
 ## Usage
