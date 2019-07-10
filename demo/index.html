@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sholes.js</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        background: #FED18C;
+        color: #FEFEFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2vw;
+        margin: 0;
+        padding: 0;
+      }
+
+      .content {
+        display: flex;
+        height: 100vh;
+        align-content: center;
+        align-items: center;
+        padding: 0 10vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div id="sholes">Words go here. They will be replaced when Sholes.js loads</div>
+    </div>
+    
+    <script src="../src/sholes.min.js"></script>
+    <script>
+      let options = {
+        target: 'sholes', //the div #id to target
+        messages: [
+          `Good news, everyone!`,
+          `You seem malnourished. Are you suffering from intestinal parasites?`,
+          `Well, let's just dump it in the sewer and say we delivered it.`,
+          `Bender, we're trying our best.`
+        ], //message array
+        fSpeed: 15, //forward typing speed
+        eSpeed: 15, //typing erase speed
+        delay: 1200, //delay before typing new message
+        remain: 2400, //how long a message stays
+        variance: 50 //how much time to vary between "keystrokes"
+      }
+            
+      sholes(options); //fires sholes
+    </script>
+  </body>
+</html>
